@@ -24,7 +24,7 @@ export const Register = () => {
       await signup(email, password);
       navigate('/');
     } catch (err) {
-      setError('Failed to create an account');
+      setError('Failed to create an account!');
     }
   };
 
