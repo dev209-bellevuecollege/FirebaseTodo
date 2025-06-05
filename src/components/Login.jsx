@@ -24,7 +24,7 @@ const Login = () => {
       await login(email, password);
       navigate('/');
     } catch (err) {
-      setError('Failed to log in');
+      setError('Failed to log in!');
     }
   };
 
